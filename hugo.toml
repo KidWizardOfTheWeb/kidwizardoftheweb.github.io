@@ -1,4 +1,4 @@
-baseURL = 'https://kidwizardoftheweb.github.io/'
+baseURL = 'https://kidwizardoftheweb-github-io.pages.dev/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-theme-terminal'
