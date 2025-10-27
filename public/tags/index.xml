@@ -2,185 +2,185 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Reaper Co. Desk</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://kidwizardoftheweb-github-io.pages.dev/tags/</link>
     <description>Recent content in Tags on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Oct 2025 16:04:50 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kidwizardoftheweb-github-io.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS</title>
-      <link>http://localhost:1313/tags/aws/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/aws/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
-      <guid>http://localhost:1313/tags/aws/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>CSS</title>
-      <link>http://localhost:1313/tags/css/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/css/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
-      <guid>http://localhost:1313/tags/css/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Django</title>
-      <link>http://localhost:1313/tags/django/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/django/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
-      <guid>http://localhost:1313/tags/django/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/django/</guid>
       <description></description>
     </item>
     <item>
       <title>HTML</title>
-      <link>http://localhost:1313/tags/html/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/html/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
-      <guid>http://localhost:1313/tags/html/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>JS</title>
-      <link>http://localhost:1313/tags/js/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/js/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
-      <guid>http://localhost:1313/tags/js/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/js/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/python/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Assembly</title>
-      <link>http://localhost:1313/tags/assembly/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/assembly/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
-      <guid>http://localhost:1313/tags/assembly/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/assembly/</guid>
       <description></description>
     </item>
     <item>
       <title>C</title>
-      <link>http://localhost:1313/tags/c/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/c/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
-      <guid>http://localhost:1313/tags/c/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/c/</guid>
       <description></description>
     </item>
     <item>
       <title>C&#43;&#43;</title>
-      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/c&#43;&#43;/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
-      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>Decompilation</title>
-      <link>http://localhost:1313/tags/decompilation/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/decompilation/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
-      <guid>http://localhost:1313/tags/decompilation/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/decompilation/</guid>
       <description></description>
     </item>
     <item>
       <title>Games</title>
-      <link>http://localhost:1313/tags/games/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/games/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
-      <guid>http://localhost:1313/tags/games/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Ghidra</title>
-      <link>http://localhost:1313/tags/ghidra/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/ghidra/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
-      <guid>http://localhost:1313/tags/ghidra/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/ghidra/</guid>
       <description></description>
     </item>
     <item>
       <title>IDA-Pro</title>
-      <link>http://localhost:1313/tags/ida-pro/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/ida-pro/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
-      <guid>http://localhost:1313/tags/ida-pro/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/ida-pro/</guid>
       <description></description>
     </item>
     <item>
       <title>PowerPC</title>
-      <link>http://localhost:1313/tags/powerpc/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/powerpc/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
-      <guid>http://localhost:1313/tags/powerpc/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/powerpc/</guid>
       <description></description>
     </item>
     <item>
       <title>Wii</title>
-      <link>http://localhost:1313/tags/wii/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/wii/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
-      <guid>http://localhost:1313/tags/wii/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/wii/</guid>
       <description></description>
     </item>
     <item>
       <title>Blender</title>
-      <link>http://localhost:1313/tags/blender/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/blender/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:09 -0400</pubDate>
-      <guid>http://localhost:1313/tags/blender/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/blender/</guid>
       <description></description>
     </item>
     <item>
       <title>C#</title>
-      <link>http://localhost:1313/tags/c%23/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/c%23/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:09 -0400</pubDate>
-      <guid>http://localhost:1313/tags/c%23/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/c%23/</guid>
       <description></description>
     </item>
     <item>
       <title>Unity</title>
-      <link>http://localhost:1313/tags/unity/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/unity/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:09 -0400</pubDate>
-      <guid>http://localhost:1313/tags/unity/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/unity/</guid>
       <description></description>
     </item>
     <item>
       <title>Noesis</title>
-      <link>http://localhost:1313/tags/noesis/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/noesis/</link>
       <pubDate>Sun, 26 Oct 2025 16:03:17 -0400</pubDate>
-      <guid>http://localhost:1313/tags/noesis/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/noesis/</guid>
       <description></description>
     </item>
     <item>
       <title>Qemu</title>
-      <link>http://localhost:1313/tags/qemu/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/qemu/</link>
       <pubDate>Sun, 26 Oct 2025 16:03:17 -0400</pubDate>
-      <guid>http://localhost:1313/tags/qemu/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/qemu/</guid>
       <description></description>
     </item>
     <item>
       <title>Static Analysis</title>
-      <link>http://localhost:1313/tags/static-analysis/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/static-analysis/</link>
       <pubDate>Sun, 26 Oct 2025 16:03:17 -0400</pubDate>
-      <guid>http://localhost:1313/tags/static-analysis/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/static-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>X86</title>
-      <link>http://localhost:1313/tags/x86/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/x86/</link>
       <pubDate>Sun, 26 Oct 2025 16:03:17 -0400</pubDate>
-      <guid>http://localhost:1313/tags/x86/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/x86/</guid>
       <description></description>
     </item>
     <item>
       <title>GameCube</title>
-      <link>http://localhost:1313/tags/gamecube/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/gamecube/</link>
       <pubDate>Sun, 26 Oct 2025 16:03:13 -0400</pubDate>
-      <guid>http://localhost:1313/tags/gamecube/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/gamecube/</guid>
       <description></description>
     </item>
     <item>
       <title>Qt</title>
-      <link>http://localhost:1313/tags/qt/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/qt/</link>
       <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
-      <guid>http://localhost:1313/tags/qt/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/qt/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>http://localhost:1313/tags/tools/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/tags/tools/</link>
       <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
-      <guid>http://localhost:1313/tags/tools/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/tags/tools/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolios on Reaper Co. Desk</title>
-    <link>http://localhost:1313/portfolio/</link>
+    <link>https://kidwizardoftheweb-github-io.pages.dev/portfolio/</link>
     <description>Recent content in Portfolios on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Oct 2025 16:04:50 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kidwizardoftheweb-github-io.pages.dev/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ThirdSpace</title>
-      <link>http://localhost:1313/portfolio/thirdspace/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/portfolio/thirdspace/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/thirdspace/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/portfolio/thirdspace/</guid>
       <description>&lt;h2 id=&#34;social-media-platform-that-prioritizes-self-expression-above-all&#34;&gt;Social Media platform that prioritizes self-expression above all.&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2025-present&#34;&gt;June 2025-Present&lt;/h4&gt;&#xA;&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ThirdSpace&#34;&gt;https://github.com/KidWizardOfTheWeb/ThirdSpace&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Work in progress.&#xA;Features to be added:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remove TinyMCE for Monaco Editor: &lt;a href=&#34;https://github.com/microsoft/monaco-editor&#34;&gt;https://github.com/microsoft/monaco-editor&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Create search engine for other users.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ThirdSpace allows users to host their own websites with their account and share with others.&#xA;Currently, users can create their own account, set up MFA, and host their own written HTML and view the output on their own user page.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Legend of Zelda: Skyward Sword Decompilation</title>
-      <link>http://localhost:1313/portfolio/lozss/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/portfolio/lozss/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/lozss/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/portfolio/lozss/</guid>
       <description>&lt;h2 id=&#34;decompilation-of-skyward-sword-for-the-nintendo-wii&#34;&gt;Decompilation of Skyward Sword for the Nintendo Wii&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contributed to the decompilation of game by using analysis techniques and programs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ss&#34;&gt;https://github.com/KidWizardOfTheWeb/ss&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;PowerPC Assembly&lt;/li&gt;&#xA;&lt;li&gt;Ghidra - &lt;a href=&#34;https://github.com/NationalSecurityAgency/ghidra&#34;&gt;https://github.com/NationalSecurityAgency/ghidra&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>JSRFMP</title>
-      <link>http://localhost:1313/portfolio/jsrfmp/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/portfolio/jsrfmp/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:09 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/jsrfmp/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/portfolio/jsrfmp/</guid>
       <description>&lt;h2 id=&#34;jet-set-radio-future-multiplayer&#34;&gt;Jet Set Radio Future Multiplayer&lt;/h2&gt;&#xA;&lt;h4 id=&#34;october-2019---2022&#34;&gt;October 2019 - 2022&lt;/h4&gt;&#xA;&lt;p&gt;Unity engine remake of &amp;ldquo;Jet Set Radio Future&amp;rdquo; by SEGA (2002).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Handled level design and collision detection in Unity for gameplay.&lt;/li&gt;&#xA;&lt;li&gt;Collaborated with a team to reach goals and stay coordinated in order to ensure development ran smoothly.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Game was taken down by the original developer, Screenracer.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Materials for reference can be provided upon request&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity&lt;/li&gt;&#xA;&lt;li&gt;C#&lt;/li&gt;&#xA;&lt;li&gt;Blender&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>K4SS0</title>
-      <link>http://localhost:1313/portfolio/k4ss0/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/portfolio/k4ss0/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:01 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/k4ss0/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/portfolio/k4ss0/</guid>
       <description>&lt;h2 id=&#34;senior-year-game-dev-final-project&#34;&gt;Senior year game dev final project&lt;/h2&gt;&#xA;&lt;h4 id=&#34;also-a-tech-demo-for-a-unity-remake-of-ollie-king-sega-2004&#34;&gt;Also a tech demo for a unity remake of &amp;ldquo;Ollie King&amp;rdquo; (SEGA, 2004).&lt;/h4&gt;&#xA;&lt;h4 id=&#34;march-2025---april-2025&#34;&gt;March 2025 - April 2025&lt;/h4&gt;&#xA;&lt;p&gt;Link to game build: &lt;a href=&#34;https://drive.google.com/file/d/1BAd5OgG3W8aUHTaVgNjgzS6-E7qW_yKy/view?usp=drive_link&#34;&gt;https://drive.google.com/file/d/1BAd5OgG3W8aUHTaVgNjgzS6-E7qW_yKy/view?usp=drive_link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity&lt;/li&gt;&#xA;&lt;li&gt;C#&lt;/li&gt;&#xA;&lt;li&gt;Blender&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Ollie King (arcade) projects</title>
-      <link>http://localhost:1313/portfolio/ok/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/portfolio/ok/</link>
       <pubDate>Sun, 26 Oct 2025 16:03:17 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/ok/</guid>
-      <description>&lt;h2 id=&#34;decompilation-static-analysis-of-file-formats-extraction-scripts-and-unity-remake-of-ollie-king-sega-2004&#34;&gt;Decompilation, static analysis of file formats, extraction scripts, and unity remake of Ollie King (SEGA, 2004)&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2021---present&#34;&gt;June 2021 - Present&lt;/h4&gt;&#xA;&lt;p&gt;This is an ongoing project with many subprojects involved. This one especially is a longterm dream of mine to finish one day.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ollie-king-decompilation-tools&#34;&gt;Ollie King Decompilation Tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python scripts that use the libraries and APIs offered by Noesis: &lt;a href=&#34;https://richwhitehouse.com/index.php?content=inc_projects.php&amp;amp;showproject=91&#34;&gt;https://richwhitehouse.com/index.php?content=inc_projects.php&amp;showproject=91&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/OllieKingRETools&#34;&gt;https://github.com/KidWizardOfTheWeb/OllieKingRETools&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ollie-king-unity-remake&#34;&gt;Ollie King unity remake&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity remake of Ollie King.&lt;/li&gt;&#xA;&lt;li&gt;Longterm work in progress.&lt;/li&gt;&#xA;&lt;li&gt;See: &lt;a href=&#34;http://localhost:1313/portfolio/k4ss0/&#34;&gt;K4SS0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ollie-king-footage&#34;&gt;Ollie King footage&lt;/h3&gt;&#xA;&lt;p&gt;You can find footage of Ollie King on my YouTube channel on this playlist: &lt;a href=&#34;https://www.youtube.com/watch?v=xn72cQjUys8&amp;amp;list=PL5-XCIdxzrQkgo5iB44BxLeo8LkqtU2qy&#34;&gt;https://www.youtube.com/watch?v=xn72cQjUys8&amp;list=PL5-XCIdxzrQkgo5iB44BxLeo8LkqtU2qy&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/portfolio/ok/</guid>
+      <description>&lt;h2 id=&#34;decompilation-static-analysis-of-file-formats-extraction-scripts-and-unity-remake-of-ollie-king-sega-2004&#34;&gt;Decompilation, static analysis of file formats, extraction scripts, and unity remake of Ollie King (SEGA, 2004)&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2021---present&#34;&gt;June 2021 - Present&lt;/h4&gt;&#xA;&lt;p&gt;This is an ongoing project with many subprojects involved. This one especially is a longterm dream of mine to finish one day.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ollie-king-decompilation-tools&#34;&gt;Ollie King Decompilation Tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python scripts that use the libraries and APIs offered by Noesis: &lt;a href=&#34;https://richwhitehouse.com/index.php?content=inc_projects.php&amp;amp;showproject=91&#34;&gt;https://richwhitehouse.com/index.php?content=inc_projects.php&amp;showproject=91&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/OllieKingRETools&#34;&gt;https://github.com/KidWizardOfTheWeb/OllieKingRETools&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ollie-king-unity-remake&#34;&gt;Ollie King unity remake&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity remake of Ollie King.&lt;/li&gt;&#xA;&lt;li&gt;Longterm work in progress.&lt;/li&gt;&#xA;&lt;li&gt;See: &lt;a href=&#34;https://kidwizardoftheweb-github-io.pages.dev/portfolio/k4ss0/&#34;&gt;K4SS0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ollie-king-footage&#34;&gt;Ollie King footage&lt;/h3&gt;&#xA;&lt;p&gt;You can find footage of Ollie King on my YouTube channel on this playlist: &lt;a href=&#34;https://www.youtube.com/watch?v=xn72cQjUys8&amp;amp;list=PL5-XCIdxzrQkgo5iB44BxLeo8LkqtU2qy&#34;&gt;https://www.youtube.com/watch?v=xn72cQjUys8&amp;list=PL5-XCIdxzrQkgo5iB44BxLeo8LkqtU2qy&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sonic Riders: Tournament Edition</title>
-      <link>http://localhost:1313/portfolio/sr/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/portfolio/sr/</link>
       <pubDate>Sun, 26 Oct 2025 16:03:13 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/sr/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/portfolio/sr/</guid>
       <description>&lt;h2 id=&#34;decompilation-recompilation-and-modification-of-sonic-riders-for-the-gamecube&#34;&gt;Decompilation, recompilation, and modification of Sonic Riders for the GameCube&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2022---present&#34;&gt;June 2022 - Present&lt;/h4&gt;&#xA;&lt;p&gt;Link to website: &lt;a href=&#34;https://www.sonicriders.org/&#34;&gt;https://www.sonicriders.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Link to fork of public repository (differs from development repository): &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/sonicriderste_KC&#34;&gt;https://github.com/KidWizardOfTheWeb/sonicriderste_KC&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Development repository can be shown upon request for reference by hiring managers&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C&lt;/li&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;PowerPC Assembly&lt;/li&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Reaper Co. Mod Manager</title>
-      <link>http://localhost:1313/portfolio/rcmm/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/portfolio/rcmm/</link>
       <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/rcmm/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/portfolio/rcmm/</guid>
       <description>&lt;h2 id=&#34;a-file-management-solution-for-gamecube-mods&#34;&gt;A file management solution for GameCube Mods&lt;/h2&gt;&#xA;&lt;h4 id=&#34;october-2025---present&#34;&gt;October 2025 - Present&lt;/h4&gt;&#xA;&lt;p&gt;Full-Stack desktop application that serves as a file manager for injecting files into extracted GameCube ISOs.&lt;/p&gt;&#xA;&lt;p&gt;GitHub Repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager&#34;&gt;https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Work in progress.&#xA;Features to be added:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Texture support.&lt;/li&gt;&#xA;&lt;li&gt;P2P file transfer using Croc: &lt;a href=&#34;https://github.com/schollz/croc&#34;&gt;https://github.com/schollz/croc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Improved UI.&lt;/li&gt;&#xA;&lt;li&gt;GameBanana API support.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;Qt UI/PyQt6&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

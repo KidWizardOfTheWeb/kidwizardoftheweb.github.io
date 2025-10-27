@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GameCube on Reaper Co. Desk</title>
-    <link>http://localhost:1313/tags/gamecube/</link>
+    <link>https://kidwizardoftheweb-github-io.pages.dev/tags/gamecube/</link>
     <description>Recent content in GameCube on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Oct 2025 16:03:13 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gamecube/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kidwizardoftheweb-github-io.pages.dev/tags/gamecube/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sonic Riders: Tournament Edition</title>
-      <link>http://localhost:1313/portfolio/sr/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/portfolio/sr/</link>
       <pubDate>Sun, 26 Oct 2025 16:03:13 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/sr/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/portfolio/sr/</guid>
       <description>&lt;h2 id=&#34;decompilation-recompilation-and-modification-of-sonic-riders-for-the-gamecube&#34;&gt;Decompilation, recompilation, and modification of Sonic Riders for the GameCube&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2022---present&#34;&gt;June 2022 - Present&lt;/h4&gt;&#xA;&lt;p&gt;Link to website: &lt;a href=&#34;https://www.sonicriders.org/&#34;&gt;https://www.sonicriders.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Link to fork of public repository (differs from development repository): &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/sonicriderste_KC&#34;&gt;https://github.com/KidWizardOfTheWeb/sonicriderste_KC&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Development repository can be shown upon request for reference by hiring managers&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C&lt;/li&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;PowerPC Assembly&lt;/li&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Reaper Co. Mod Manager</title>
-      <link>http://localhost:1313/portfolio/rcmm/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/portfolio/rcmm/</link>
       <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/rcmm/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/portfolio/rcmm/</guid>
       <description>&lt;h2 id=&#34;a-file-management-solution-for-gamecube-mods&#34;&gt;A file management solution for GameCube Mods&lt;/h2&gt;&#xA;&lt;h4 id=&#34;october-2025---present&#34;&gt;October 2025 - Present&lt;/h4&gt;&#xA;&lt;p&gt;Full-Stack desktop application that serves as a file manager for injecting files into extracted GameCube ISOs.&lt;/p&gt;&#xA;&lt;p&gt;GitHub Repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager&#34;&gt;https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Work in progress.&#xA;Features to be added:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Texture support.&lt;/li&gt;&#xA;&lt;li&gt;P2P file transfer using Croc: &lt;a href=&#34;https://github.com/schollz/croc&#34;&gt;https://github.com/schollz/croc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Improved UI.&lt;/li&gt;&#xA;&lt;li&gt;GameBanana API support.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;Qt UI/PyQt6&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

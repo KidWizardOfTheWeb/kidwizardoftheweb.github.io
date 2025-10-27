@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Reaper Co. Desk</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://kidwizardoftheweb-github-io.pages.dev/posts/</link>
     <description>Recent content in Posts on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 24 Oct 2025 18:31:44 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kidwizardoftheweb-github-io.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to the site, stranger.</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://kidwizardoftheweb-github-io.pages.dev/posts/my-first-post/</link>
       <pubDate>Fri, 24 Oct 2025 18:31:44 -0400</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://kidwizardoftheweb-github-io.pages.dev/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This site serves as an extension of my resume, as well as where I house my lifetime portfolio of side projects (I have many).&#xA;I also post regularly about the things I do in the Editor&amp;rsquo;s Desk section, so check that out for the latest updates.&lt;/p&gt;&#xA;&lt;p&gt;Hint: The text at the top that reads &lt;code&gt;C://Reaper Co.&lt;/code&gt; leads back to here (the homepage).&lt;/p&gt;&#xA;&lt;h3 id=&#34;for-hiring-managers-reading-more-about-me-from-my-resume&#34;&gt;For hiring managers reading more about me from my resume:&lt;/h3&gt;&#xA;&lt;p&gt;For more about me, my work history, and relevant skills towards the tech industry and computer science, check out these pages:&lt;/p&gt;</description>
     </item>
   </channel>
