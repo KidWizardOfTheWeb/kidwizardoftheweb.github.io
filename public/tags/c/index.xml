@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C on Terminal</title>
+    <title>C on Reaper Co. Desk</title>
     <link>http://localhost:1313/tags/c/</link>
-    <description>Recent content in C on Terminal</description>
+    <description>Recent content in C on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Oct 2025 16:03:13 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2025 16:04:32 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sonic Riders</title>
+      <title>Legend of Zelda: Skyward Sword Decompilation</title>
+      <link>http://localhost:1313/portfolio/lozss/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/lozss/</guid>
+      <description>&lt;h2 id=&#34;decompilation-of-skyward-sword-for-the-nintendo-wii&#34;&gt;Decompilation of Skyward Sword for the Nintendo Wii&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contributed to the decompilation of game by using analysis techniques and programs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ss&#34;&gt;https://github.com/KidWizardOfTheWeb/ss&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;PowerPC Assembly&lt;/li&gt;&#xA;&lt;li&gt;Ghidra - &lt;a href=&#34;https://github.com/NationalSecurityAgency/ghidra&#34;&gt;https://github.com/NationalSecurityAgency/ghidra&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Sonic Riders: Tournament Edition</title>
       <link>http://localhost:1313/portfolio/sr/</link>
       <pubDate>Sun, 26 Oct 2025 16:03:13 -0400</pubDate>
       <guid>http://localhost:1313/portfolio/sr/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;decompilation-recompilation-and-modification-of-sonic-riders-for-the-gamecube&#34;&gt;Decompilation, recompilation, and modification of Sonic Riders for the GameCube&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2022---present&#34;&gt;June 2022 - Present&lt;/h4&gt;&#xA;&lt;p&gt;Link to website: &lt;a href=&#34;https://www.sonicriders.org/&#34;&gt;https://www.sonicriders.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Link to fork of public repository (differs from development repository): &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/sonicriderste_KC&#34;&gt;https://github.com/KidWizardOfTheWeb/sonicriderste_KC&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Development repository can be shown upon request for reference by hiring managers&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C&lt;/li&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;PowerPC Assembly&lt;/li&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

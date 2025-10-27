@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CSS on Terminal</title>
+    <title>CSS on Reaper Co. Desk</title>
     <link>http://localhost:1313/tags/css/</link>
-    <description>Recent content in CSS on Terminal</description>
+    <description>Recent content in CSS on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Oct 2025 16:04:50 -0400</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/portfolio/thirdspace/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
       <guid>http://localhost:1313/portfolio/thirdspace/</guid>
-      <description>&lt;h2 id=&#34;social-media-platform-that-prioritizes-self-expression-above-all&#34;&gt;Social Media platform that prioritizes self-expression above all.&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;AWS&lt;/li&gt;&#xA;&lt;li&gt;Django&lt;/li&gt;&#xA;&lt;li&gt;JavaScript&lt;/li&gt;&#xA;&lt;li&gt;HTML&lt;/li&gt;&#xA;&lt;li&gt;CSS&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;social-media-platform-that-prioritizes-self-expression-above-all&#34;&gt;Social Media platform that prioritizes self-expression above all.&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2025-present&#34;&gt;June 2025-Present&lt;/h4&gt;&#xA;&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ThirdSpace&#34;&gt;https://github.com/KidWizardOfTheWeb/ThirdSpace&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Work in progress.&#xA;Features to be added:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remove TinyMCE for Monaco Editor: &lt;a href=&#34;https://github.com/microsoft/monaco-editor&#34;&gt;https://github.com/microsoft/monaco-editor&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Create search engine for other users.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ThirdSpace allows users to host their own websites with their account and share with others.&#xA;Currently, users can create their own account, set up MFA, and host their own written HTML and view the output on their own user page.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

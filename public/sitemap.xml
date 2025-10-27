@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/editor-desk/makingofrcmm/</loc>
-    <lastmod>2025-10-26T20:30:19-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/editor-desk/</loc>
     <lastmod>2025-10-26T20:30:19-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-26T20:30:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/editor-desk/makingofrcmm/</loc>
     <lastmod>2025-10-26T20:30:19-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reaper-co/reaperco/</loc>
@@ -45,6 +45,9 @@
     <lastmod>2025-10-26T16:04:50-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/assembly/</loc>
+    <lastmod>2025-10-26T16:04:32-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/c/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
@@ -86,14 +89,26 @@
     <loc>http://localhost:1313/portfolio/k4ss0/</loc>
     <lastmod>2025-10-26T16:04:01-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/noesis/</loc>
+    <lastmod>2025-10-26T16:03:17-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/portfolio/ok/</loc>
     <lastmod>2025-10-26T16:03:17-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/sr/</loc>
-    <lastmod>2025-10-26T16:03:13-04:00</lastmod>
+    <loc>http://localhost:1313/tags/qemu/</loc>
+    <lastmod>2025-10-26T16:03:17-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/static-analysis/</loc>
+    <lastmod>2025-10-26T16:03:17-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/x86/</loc>
+    <lastmod>2025-10-26T16:03:17-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gamecube/</loc>
-    <lastmod>2025-10-26T15:51:53-04:00</lastmod>
+    <lastmod>2025-10-26T16:03:13-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/sr/</loc>
+    <lastmod>2025-10-26T16:03:13-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/qt/</loc>
     <lastmod>2025-10-26T15:51:53-04:00</lastmod>

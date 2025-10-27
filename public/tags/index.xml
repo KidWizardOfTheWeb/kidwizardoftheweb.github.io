@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Terminal</title>
+    <title>Tags on Reaper Co. Desk</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Terminal</description>
+    <description>Recent content in Tags on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Oct 2025 16:04:50 -0400</lastBuildDate>
@@ -55,6 +55,13 @@
       <link>http://localhost:1313/tags/assembly/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
       <guid>http://localhost:1313/tags/assembly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>http://localhost:1313/tags/c/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/tags/c/</guid>
       <description></description>
     </item>
     <item>
@@ -128,9 +135,37 @@
       <description></description>
     </item>
     <item>
+      <title>Noesis</title>
+      <link>http://localhost:1313/tags/noesis/</link>
+      <pubDate>Sun, 26 Oct 2025 16:03:17 -0400</pubDate>
+      <guid>http://localhost:1313/tags/noesis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qemu</title>
+      <link>http://localhost:1313/tags/qemu/</link>
+      <pubDate>Sun, 26 Oct 2025 16:03:17 -0400</pubDate>
+      <guid>http://localhost:1313/tags/qemu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static Analysis</title>
+      <link>http://localhost:1313/tags/static-analysis/</link>
+      <pubDate>Sun, 26 Oct 2025 16:03:17 -0400</pubDate>
+      <guid>http://localhost:1313/tags/static-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>X86</title>
+      <link>http://localhost:1313/tags/x86/</link>
+      <pubDate>Sun, 26 Oct 2025 16:03:17 -0400</pubDate>
+      <guid>http://localhost:1313/tags/x86/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>GameCube</title>
       <link>http://localhost:1313/tags/gamecube/</link>
-      <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
+      <pubDate>Sun, 26 Oct 2025 16:03:13 -0400</pubDate>
       <guid>http://localhost:1313/tags/gamecube/</guid>
       <description></description>
     </item>

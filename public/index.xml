@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
+    <title>Reaper Co. Desk</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Terminal</description>
+    <description>Recent content on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Oct 2025 20:30:19 -0400</lastBuildDate>
@@ -20,7 +20,7 @@
       <link>http://localhost:1313/reaper-co/reaperco/</link>
       <pubDate>Sun, 26 Oct 2025 19:20:00 -0400</pubDate>
       <guid>http://localhost:1313/reaper-co/reaperco/</guid>
-      <description>&lt;h2 id=&#34;whats-reaper-co&#34;&gt;What&amp;rsquo;s Reaper Co.?&lt;/h2&gt;&#xA;&lt;p&gt;Most of the software I produce on my own (2025 and onward) go under the moniker &lt;strong&gt;Reaper Co.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This originated from a skate truck company that someone and I wanted to create. Only some designs were made, and the name.&lt;/p&gt;&#xA;&lt;p&gt;The name really did stick with me though, and I liked the tagline a lot:&lt;/p&gt;&#xA;&lt;h3 id=&#34;we-carve-the-stuff-of-dreams&#34;&gt;&amp;ldquo;We carve the stuff of dreams.&amp;rdquo;&lt;/h3&gt;&#xA;&lt;p&gt;So I&amp;rsquo;ve decided to keep it as a form of branding for my projects. A title for a group (even if I am the only one currently in it).&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;whats-reaper-co&#34;&gt;What&amp;rsquo;s Reaper Co.?&lt;/h2&gt;&#xA;&lt;p&gt;Most of the software I produce on my own (2025 and onward) go under the moniker &lt;strong&gt;Reaper Co.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This originated from a skate truck company that someone and I wanted to create. Only some designs were made, and the name.&lt;/p&gt;&#xA;&lt;p&gt;The name really did stick with me though, and I liked the tagline a lot:&lt;/p&gt;&#xA;&lt;h3 id=&#34;we-carve-the-stuff-of-dreams&#34;&gt;&amp;ldquo;We carve the stuff of dreams.&amp;rdquo;&lt;/h3&gt;&#xA;&lt;p&gt;So I&amp;rsquo;ve decided to keep it as a form of branding for my projects. A title for a company (even if I am the only one currently in it). One day, I hope to register the trademarks needed and run it as my own.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ThirdSpace</title>
@@ -90,7 +90,7 @@
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Fri, 24 Oct 2025 18:31:44 -0400</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This site serves as an extension of my resume, as well as where I house my lifetime portfolio of side projects (I have many).&#xA;I also post regularly about the things I do in the Posts section, so check that out for the latest updates.&lt;/p&gt;&#xA;&lt;h3 id=&#34;for-hiring-managers-reading-more-about-me-from-my-resume&#34;&gt;For hiring managers reading more about me from my resume:&lt;/h3&gt;&#xA;&lt;p&gt;For more about me, my work history, and relevant skills towards the tech industry and computer science, check out these pages:&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This site serves as an extension of my resume, as well as where I house my lifetime portfolio of side projects (I have many).&#xA;I also post regularly about the things I do in the Editor&amp;rsquo;s Desk section, so check that out for the latest updates.&lt;/p&gt;&#xA;&lt;p&gt;Hint: The text at the top that reads &lt;code&gt;C://Reaper Co.&lt;/code&gt; leads back to here (the homepage).&lt;/p&gt;&#xA;&lt;h3 id=&#34;for-hiring-managers-reading-more-about-me-from-my-resume&#34;&gt;For hiring managers reading more about me from my resume:&lt;/h3&gt;&#xA;&lt;p&gt;For more about me, my work history, and relevant skills towards the tech industry and computer science, check out these pages:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

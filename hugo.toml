@@ -85,10 +85,10 @@ pagination.pagerSize = 7
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Reaper Co. Desk"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      subtitle = "My personal portfolio site & the home of Reaper Co."
       owner = ""
       keywords = ""
       copyright = ""
