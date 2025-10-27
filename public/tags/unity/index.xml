@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity on Terminal</title>
+    <link>http://localhost:1313/tags/unity/</link>
+    <description>Recent content in Unity on Terminal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Oct 2025 16:04:09 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JSRFMP</title>
+      <link>http://localhost:1313/portfolio/jsrfmp/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:09 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/jsrfmp/</guid>
+      <description>&lt;h2 id=&#34;jet-set-radio-future-multiplayer&#34;&gt;Jet Set Radio Future Multiplayer&lt;/h2&gt;&#xA;&lt;p&gt;Unity engine remake of &amp;ldquo;Jet Set Radio Future&amp;rdquo; by SEGA (2002).&lt;/p&gt;&#xA;&lt;p&gt;Game was taken down by the original developer, Screenracer.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Materials for reference can be provided upon request&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity&lt;/li&gt;&#xA;&lt;li&gt;C#&lt;/li&gt;&#xA;&lt;li&gt;Blender&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>K4SS0</title>
+      <link>http://localhost:1313/portfolio/k4ss0/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:01 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/k4ss0/</guid>
+      <description>&lt;h2 id=&#34;senior-year-game-dev-final-project&#34;&gt;Senior year game dev final project&lt;/h2&gt;&#xA;&lt;h4 id=&#34;also-a-tech-demo-for-a-unity-remake-of-ollie-king-sega-2004&#34;&gt;Also a tech demo for a unity remake of &amp;ldquo;Ollie King&amp;rdquo; (SEGA, 2004).&lt;/h4&gt;&#xA;&lt;p&gt;Link to game build: &lt;a href=&#34;https://drive.google.com/file/d/1BAd5OgG3W8aUHTaVgNjgzS6-E7qW_yKy/view?usp=drive_link&#34;&gt;https://drive.google.com/file/d/1BAd5OgG3W8aUHTaVgNjgzS6-E7qW_yKy/view?usp=drive_link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity&lt;/li&gt;&#xA;&lt;li&gt;C#&lt;/li&gt;&#xA;&lt;li&gt;Blender&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

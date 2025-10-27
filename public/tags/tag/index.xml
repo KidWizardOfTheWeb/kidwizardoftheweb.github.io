@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag on Terminal</title>
+    <link>http://localhost:1313/tags/tag/</link>
+    <description>Recent content in Tag on Terminal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Oct 2025 14:40:05 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/about-me/</link>
+      <pubDate>Sun, 26 Oct 2025 14:40:05 -0400</pubDate>
+      <guid>http://localhost:1313/about/about-me/</guid>
+      <description>&lt;h2 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h2&gt;&#xA;&lt;p&gt;My name is Samir Masih. I&amp;rsquo;m a 22 year old software developer looking for full-time opportunities.&#xA;I am a Clemson University Computer Science Graduate (B.S.), passionate about every level of programming out there.&#xA;Whether it&amp;rsquo;s high-level application and web development or low-level assembly work, I&amp;rsquo;m always looking to make new things and learn everything I can to make software for people that need it.&lt;/p&gt;&#xA;&lt;p&gt;The fields that I&amp;rsquo;m currently interested in/working in:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,19 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Terminal</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Terminal</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 24 Oct 2025 18:31:44 -0400</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Oct 2025 20:30:19 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
+      <title>Solving file maintenance: how RCMM was developed.</title>
+      <link>http://localhost:1313/editor-desk/makingofrcmm/</link>
+      <pubDate>Sun, 26 Oct 2025 20:30:19 -0400</pubDate>
+      <guid>http://localhost:1313/editor-desk/makingofrcmm/</guid>
+      <description>&lt;h2 id=&#34;rcmm---a-file-management-solution-for-gamecube-mods&#34;&gt;R.C.M.M. - A file management solution for GameCube Mods&lt;/h2&gt;&#xA;&lt;p&gt;At the time of writing (when I started this website), this is my most recent venture (I&amp;rsquo;m pretty proud of it quite honestly).&lt;/p&gt;&#xA;&lt;p&gt;My aim was to fix a common issue with developing mods involving file changes to emulated GameCube and Wii games, which is build and file management.&lt;/p&gt;&#xA;&lt;p&gt;While I was developing Sonic Riders Tournament Edition, most of the time players were generally discouraged from modifying the game in any way due to being unable to play together with someone if they do not have the &lt;em&gt;exact&lt;/em&gt; same setup as you. That meant &lt;strong&gt;no custom models or music packs&lt;/strong&gt; unless you gave the other player an Xdelta (file used to modify a base file into the target output) and have them patch their game copy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Everyone needs branding, right?</title>
+      <link>http://localhost:1313/reaper-co/reaperco/</link>
+      <pubDate>Sun, 26 Oct 2025 19:20:00 -0400</pubDate>
+      <guid>http://localhost:1313/reaper-co/reaperco/</guid>
+      <description>&lt;h2 id=&#34;whats-reaper-co&#34;&gt;What&amp;rsquo;s Reaper Co.?&lt;/h2&gt;&#xA;&lt;p&gt;Most of the software I produce on my own (2025 and onward) go under the moniker &lt;strong&gt;Reaper Co.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This originated from a skate truck company that someone and I wanted to create. Only some designs were made, and the name.&lt;/p&gt;&#xA;&lt;p&gt;The name really did stick with me though, and I liked the tagline a lot:&lt;/p&gt;&#xA;&lt;h3 id=&#34;we-carve-the-stuff-of-dreams&#34;&gt;&amp;ldquo;We carve the stuff of dreams.&amp;rdquo;&lt;/h3&gt;&#xA;&lt;p&gt;So I&amp;rsquo;ve decided to keep it as a form of branding for my projects. A title for a group (even if I am the only one currently in it).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ThirdSpace</title>
+      <link>http://localhost:1313/portfolio/thirdspace/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/thirdspace/</guid>
+      <description>&lt;h2 id=&#34;social-media-platform-that-prioritizes-self-expression-above-all&#34;&gt;Social Media platform that prioritizes self-expression above all.&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2025-present&#34;&gt;June 2025-Present&lt;/h4&gt;&#xA;&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ThirdSpace&#34;&gt;https://github.com/KidWizardOfTheWeb/ThirdSpace&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Work in progress.&#xA;Features to be added:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remove TinyMCE for Monaco Editor: &lt;a href=&#34;https://github.com/microsoft/monaco-editor&#34;&gt;https://github.com/microsoft/monaco-editor&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Create search engine for other users.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ThirdSpace allows users to host their own websites with their account and share with others.&#xA;Currently, users can create their own account, set up MFA, and host their own written HTML and view the output on their own user page.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Legend of Zelda: Skyward Sword Decompilation</title>
+      <link>http://localhost:1313/portfolio/lozss/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/lozss/</guid>
+      <description>&lt;h2 id=&#34;decompilation-of-skyward-sword-for-the-nintendo-wii&#34;&gt;Decompilation of Skyward Sword for the Nintendo Wii&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contributed to the decompilation of game by using analysis techniques and programs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ss&#34;&gt;https://github.com/KidWizardOfTheWeb/ss&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;PowerPC Assembly&lt;/li&gt;&#xA;&lt;li&gt;Ghidra - &lt;a href=&#34;https://github.com/NationalSecurityAgency/ghidra&#34;&gt;https://github.com/NationalSecurityAgency/ghidra&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>JSRFMP</title>
+      <link>http://localhost:1313/portfolio/jsrfmp/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:09 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/jsrfmp/</guid>
+      <description>&lt;h2 id=&#34;jet-set-radio-future-multiplayer&#34;&gt;Jet Set Radio Future Multiplayer&lt;/h2&gt;&#xA;&lt;h4 id=&#34;october-2019---2022&#34;&gt;October 2019 - 2022&lt;/h4&gt;&#xA;&lt;p&gt;Unity engine remake of &amp;ldquo;Jet Set Radio Future&amp;rdquo; by SEGA (2002).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Handled level design and collision detection in Unity for gameplay.&lt;/li&gt;&#xA;&lt;li&gt;Collaborated with a team to reach goals and stay coordinated in order to ensure development ran smoothly.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Game was taken down by the original developer, Screenracer.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Materials for reference can be provided upon request&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity&lt;/li&gt;&#xA;&lt;li&gt;C#&lt;/li&gt;&#xA;&lt;li&gt;Blender&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>K4SS0</title>
+      <link>http://localhost:1313/portfolio/k4ss0/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:01 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/k4ss0/</guid>
+      <description>&lt;h2 id=&#34;senior-year-game-dev-final-project&#34;&gt;Senior year game dev final project&lt;/h2&gt;&#xA;&lt;h4 id=&#34;also-a-tech-demo-for-a-unity-remake-of-ollie-king-sega-2004&#34;&gt;Also a tech demo for a unity remake of &amp;ldquo;Ollie King&amp;rdquo; (SEGA, 2004).&lt;/h4&gt;&#xA;&lt;h4 id=&#34;march-2025---april-2025&#34;&gt;March 2025 - April 2025&lt;/h4&gt;&#xA;&lt;p&gt;Link to game build: &lt;a href=&#34;https://drive.google.com/file/d/1BAd5OgG3W8aUHTaVgNjgzS6-E7qW_yKy/view?usp=drive_link&#34;&gt;https://drive.google.com/file/d/1BAd5OgG3W8aUHTaVgNjgzS6-E7qW_yKy/view?usp=drive_link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity&lt;/li&gt;&#xA;&lt;li&gt;C#&lt;/li&gt;&#xA;&lt;li&gt;Blender&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Ollie King (arcade) projects</title>
+      <link>http://localhost:1313/portfolio/ok/</link>
+      <pubDate>Sun, 26 Oct 2025 16:03:17 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/ok/</guid>
+      <description>&lt;h2 id=&#34;decompilation-static-analysis-of-file-formats-extraction-scripts-and-unity-remake-of-ollie-king-sega-2004&#34;&gt;Decompilation, static analysis of file formats, extraction scripts, and unity remake of Ollie King (SEGA, 2004)&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2021---present&#34;&gt;June 2021 - Present&lt;/h4&gt;&#xA;&lt;p&gt;This is an ongoing project with many subprojects involved. This one especially is a longterm dream of mine to finish one day.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ollie-king-decompilation-tools&#34;&gt;Ollie King Decompilation Tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python scripts that use the libraries and APIs offered by Noesis: &lt;a href=&#34;https://richwhitehouse.com/index.php?content=inc_projects.php&amp;amp;showproject=91&#34;&gt;https://richwhitehouse.com/index.php?content=inc_projects.php&amp;showproject=91&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/OllieKingRETools&#34;&gt;https://github.com/KidWizardOfTheWeb/OllieKingRETools&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ollie-king-unity-remake&#34;&gt;Ollie King unity remake&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unity remake of Ollie King.&lt;/li&gt;&#xA;&lt;li&gt;Longterm work in progress.&lt;/li&gt;&#xA;&lt;li&gt;See: &lt;a href=&#34;http://localhost:1313/portfolio/k4ss0/&#34;&gt;K4SS0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ollie-king-footage&#34;&gt;Ollie King footage&lt;/h3&gt;&#xA;&lt;p&gt;You can find footage of Ollie King on my YouTube channel on this playlist: &lt;a href=&#34;https://www.youtube.com/watch?v=xn72cQjUys8&amp;amp;list=PL5-XCIdxzrQkgo5iB44BxLeo8LkqtU2qy&#34;&gt;https://www.youtube.com/watch?v=xn72cQjUys8&amp;list=PL5-XCIdxzrQkgo5iB44BxLeo8LkqtU2qy&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sonic Riders: Tournament Edition</title>
+      <link>http://localhost:1313/portfolio/sr/</link>
+      <pubDate>Sun, 26 Oct 2025 16:03:13 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/sr/</guid>
+      <description>&lt;h2 id=&#34;decompilation-recompilation-and-modification-of-sonic-riders-for-the-gamecube&#34;&gt;Decompilation, recompilation, and modification of Sonic Riders for the GameCube&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2022---present&#34;&gt;June 2022 - Present&lt;/h4&gt;&#xA;&lt;p&gt;Link to website: &lt;a href=&#34;https://www.sonicriders.org/&#34;&gt;https://www.sonicriders.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Link to fork of public repository (differs from development repository): &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/sonicriderste_KC&#34;&gt;https://github.com/KidWizardOfTheWeb/sonicriderste_KC&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Development repository can be shown upon request for reference by hiring managers&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C&lt;/li&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;PowerPC Assembly&lt;/li&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Reaper Co. Mod Manager</title>
+      <link>http://localhost:1313/portfolio/rcmm/</link>
+      <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/rcmm/</guid>
+      <description>&lt;h2 id=&#34;a-file-management-solution-for-gamecube-mods&#34;&gt;A file management solution for GameCube Mods&lt;/h2&gt;&#xA;&lt;h4 id=&#34;october-2025---present&#34;&gt;October 2025 - Present&lt;/h4&gt;&#xA;&lt;p&gt;Full-Stack desktop application that serves as a file manager for injecting files into extracted GameCube ISOs.&lt;/p&gt;&#xA;&lt;p&gt;GitHub Repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager&#34;&gt;https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Work in progress.&#xA;Features to be added:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Texture support.&lt;/li&gt;&#xA;&lt;li&gt;P2P file transfer using Croc: &lt;a href=&#34;https://github.com/schollz/croc&#34;&gt;https://github.com/schollz/croc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Improved UI.&lt;/li&gt;&#xA;&lt;li&gt;GameBanana API support.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;Qt UI/PyQt6&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Hexagon AB</title>
+      <link>http://localhost:1313/job-history/hexagonab/</link>
+      <pubDate>Sun, 26 Oct 2025 15:10:01 -0400</pubDate>
+      <guid>http://localhost:1313/job-history/hexagonab/</guid>
+      <description>&lt;h2 id=&#34;enterprise-asset-management-eam-lifecycle-intern&#34;&gt;Enterprise Asset Management (EAM) Lifecycle Intern&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2024---august-2024&#34;&gt;June 2024 - August 2024&lt;/h4&gt;&#xA;&lt;p&gt;In my time at Hexagon, I developed skills regarding web development and cloud services, namely AWS. A team comprising of 3 other interns and I developed full stack applications using Django as a web framework, with HTML, CSS, and JS as our frontend.&lt;/p&gt;&#xA;&lt;p&gt;For our first web application, our intern team developed a brand new build deployment page for the EAM division that would automatically access their APIs for the latest build information and automatically update at set times, depending on time zones.&#xA;My role was to develop the backend functionality to obtain information from the APIs, organize it into JSON data that the server would store, and update the front-end at the correct world times for international teams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/about-me/</link>
+      <pubDate>Sun, 26 Oct 2025 14:40:05 -0400</pubDate>
+      <guid>http://localhost:1313/about/about-me/</guid>
+      <description>&lt;h2 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h2&gt;&#xA;&lt;p&gt;Samir Masih, recent Clemson University Computer Science Graduate looking for full-time opportunities.&lt;/p&gt;&#xA;&lt;p&gt;Always looking to develop solutions while learning new technologies to support both developers and users.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m passionate about all scopes of programming, whether it&amp;rsquo;s high-level application and web development or low-level assembly work.&lt;/p&gt;&#xA;&lt;p&gt;Interested in opportunities in the following areas:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Desktop/Web Application development&lt;/li&gt;&#xA;&lt;li&gt;Reverse Engineering&lt;/li&gt;&#xA;&lt;li&gt;Website Creation/Development&lt;/li&gt;&#xA;&lt;li&gt;Network programming&lt;/li&gt;&#xA;&lt;li&gt;Automation scripts and tools&lt;/li&gt;&#xA;&lt;li&gt;Low-level machine code and Assembly&lt;/li&gt;&#xA;&lt;li&gt;Game Development&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I&amp;rsquo;m extremely passionate about making programs and software that improves the quality of life for whatever field needs it the most. Most of my tools are designed around the users first and foremost, ensuring that the target audience is satisfied with the product. With my many years collaborating with other teams and interfacing with different communities, I&amp;rsquo;ve learned to assess, plan, and execute according to the user&amp;rsquo;s needs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to the site, stranger.</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Fri, 24 Oct 2025 18:31:44 -0400</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This site serves as an extension of my resume, as well as where I house my lifetime portfolio of side projects (I have many).&#xA;I also post regularly about the things I do in the Posts section, so check that out for the latest updates.&lt;/p&gt;&#xA;&lt;h3 id=&#34;for-hiring-managers-reading-more-about-me-from-my-resume&#34;&gt;For hiring managers reading more about me from my resume:&lt;/h3&gt;&#xA;&lt;p&gt;For more about me, my work history, and relevant skills towards the tech industry and computer science, check out these pages:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,12 +1,24 @@
 baseURL = 'https://kidwizardoftheweb-github-io.pages.dev/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Reaper Co. Desk'
 theme = 'terminal'
-pagination.pagerSize = 5
+pagination.pagerSize = 7
 
 # Required for Chroma and the custom syntax highlighting.
 [markup.highlight]
   noClasses = false
+
+# Table of contents default setup
+[markup]
+  [markup.tableOfContents]
+      endLevel = 4
+      ordered = true
+      startLevel = 2
+
+# Comments setup
+[services]
+  [services.disqus]
+    shortname = 'smasih'
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -14,7 +26,7 @@ pagination.pagerSize = 5
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -91,7 +103,7 @@ pagination.pagerSize = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "C://Reaper Co."
         logoHomeLink = "/"
 
       [languages.en.menu]
@@ -100,6 +112,18 @@ pagination.pagerSize = 5
           name = "About"
           url = "/about"
         [[languages.en.menu.main]]
-          identifier = "showcase"
-          name = "Showcase"
-          url = "/showcase"
+          identifier = "portfolio"
+          name = "Portfolio"
+          url = "/portfolio"
+        [[languages.en.menu.main]]
+          identifier = "job-history"
+          name = "Job History"
+          url = "/job-history"
+        [[languages.en.menu.main]]
+          identifier = "editor-desk"
+          name = "From the Editor's Desk"
+          url = "/editor-desk"
+        [[languages.en.menu.main]]
+          identifier = "reaper-co"
+          name = "What is Reaper Co.?"
+          url = "/reaper-co"

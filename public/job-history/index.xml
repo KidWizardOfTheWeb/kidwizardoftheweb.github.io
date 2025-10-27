@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Job-Histories on Terminal</title>
+    <link>http://localhost:1313/job-history/</link>
+    <description>Recent content in Job-Histories on Terminal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Oct 2025 15:10:01 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/job-history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hexagon AB</title>
+      <link>http://localhost:1313/job-history/hexagonab/</link>
+      <pubDate>Sun, 26 Oct 2025 15:10:01 -0400</pubDate>
+      <guid>http://localhost:1313/job-history/hexagonab/</guid>
+      <description>&lt;h2 id=&#34;enterprise-asset-management-eam-lifecycle-intern&#34;&gt;Enterprise Asset Management (EAM) Lifecycle Intern&lt;/h2&gt;&#xA;&lt;h4 id=&#34;june-2024---august-2024&#34;&gt;June 2024 - August 2024&lt;/h4&gt;&#xA;&lt;p&gt;In my time at Hexagon, I developed skills regarding web development and cloud services, namely AWS. A team comprising of 3 other interns and I developed full stack applications using Django as a web framework, with HTML, CSS, and JS as our frontend.&lt;/p&gt;&#xA;&lt;p&gt;For our first web application, our intern team developed a brand new build deployment page for the EAM division that would automatically access their APIs for the latest build information and automatically update at set times, depending on time zones.&#xA;My role was to develop the backend functionality to obtain information from the APIs, organize it into JSON data that the server would store, and update the front-end at the correct world times for international teams.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

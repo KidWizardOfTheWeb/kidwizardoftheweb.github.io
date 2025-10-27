@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Terminal</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Terminal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Oct 2025 14:40:05 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/about-me/</link>
+      <pubDate>Sun, 26 Oct 2025 14:40:05 -0400</pubDate>
+      <guid>http://localhost:1313/about/about-me/</guid>
+      <description>&lt;h2 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h2&gt;&#xA;&lt;p&gt;Samir Masih, recent Clemson University Computer Science Graduate looking for full-time opportunities.&lt;/p&gt;&#xA;&lt;p&gt;Always looking to develop solutions while learning new technologies to support both developers and users.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m passionate about all scopes of programming, whether it&amp;rsquo;s high-level application and web development or low-level assembly work.&lt;/p&gt;&#xA;&lt;p&gt;Interested in opportunities in the following areas:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Desktop/Web Application development&lt;/li&gt;&#xA;&lt;li&gt;Reverse Engineering&lt;/li&gt;&#xA;&lt;li&gt;Website Creation/Development&lt;/li&gt;&#xA;&lt;li&gt;Network programming&lt;/li&gt;&#xA;&lt;li&gt;Automation scripts and tools&lt;/li&gt;&#xA;&lt;li&gt;Low-level machine code and Assembly&lt;/li&gt;&#xA;&lt;li&gt;Game Development&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I&amp;rsquo;m extremely passionate about making programs and software that improves the quality of life for whatever field needs it the most. Most of my tools are designed around the users first and foremost, ensuring that the target audience is satisfied with the product. With my many years collaborating with other teams and interfacing with different communities, I&amp;rsquo;ve learned to assess, plan, and execute according to the user&amp;rsquo;s needs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

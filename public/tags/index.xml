@@ -1,11 +1,152 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
+    <title>Tags on Terminal</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <description>Recent content in Tags on Terminal</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Oct 2025 16:04:50 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS</title>
+      <link>http://localhost:1313/tags/aws/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
+      <guid>http://localhost:1313/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>http://localhost:1313/tags/css/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
+      <guid>http://localhost:1313/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Django</title>
+      <link>http://localhost:1313/tags/django/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
+      <guid>http://localhost:1313/tags/django/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>http://localhost:1313/tags/html/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
+      <guid>http://localhost:1313/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JS</title>
+      <link>http://localhost:1313/tags/js/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
+      <guid>http://localhost:1313/tags/js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Assembly</title>
+      <link>http://localhost:1313/tags/assembly/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/tags/assembly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decompilation</title>
+      <link>http://localhost:1313/tags/decompilation/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/tags/decompilation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Games</title>
+      <link>http://localhost:1313/tags/games/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/tags/games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ghidra</title>
+      <link>http://localhost:1313/tags/ghidra/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/tags/ghidra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IDA-Pro</title>
+      <link>http://localhost:1313/tags/ida-pro/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/tags/ida-pro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PowerPC</title>
+      <link>http://localhost:1313/tags/powerpc/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/tags/powerpc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wii</title>
+      <link>http://localhost:1313/tags/wii/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/tags/wii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blender</title>
+      <link>http://localhost:1313/tags/blender/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/blender/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C#</title>
+      <link>http://localhost:1313/tags/c%23/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity</title>
+      <link>http://localhost:1313/tags/unity/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/unity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GameCube</title>
+      <link>http://localhost:1313/tags/gamecube/</link>
+      <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
+      <guid>http://localhost:1313/tags/gamecube/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qt</title>
+      <link>http://localhost:1313/tags/qt/</link>
+      <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
+      <guid>http://localhost:1313/tags/qt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/tags/tools/</link>
+      <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
+      <guid>http://localhost:1313/tags/tools/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

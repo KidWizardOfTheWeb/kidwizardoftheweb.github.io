@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wii on Terminal</title>
+    <link>http://localhost:1313/tags/wii/</link>
+    <description>Recent content in Wii on Terminal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Oct 2025 16:04:32 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wii/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Legend of Zelda: Skyward Sword Decompilation</title>
+      <link>http://localhost:1313/portfolio/lozss/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/lozss/</guid>
+      <description>&lt;h2 id=&#34;decompilation-of-skyward-sword-for-the-nintendo-wii&#34;&gt;Decompilation of Skyward Sword for the Nintendo Wii&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contributed to the decompilation of game by using analysis techniques and programs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ss&#34;&gt;https://github.com/KidWizardOfTheWeb/ss&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;PowerPC Assembly&lt;/li&gt;&#xA;&lt;li&gt;Ghidra - &lt;a href=&#34;https://github.com/NationalSecurityAgency/ghidra&#34;&gt;https://github.com/NationalSecurityAgency/ghidra&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Reaper Co. Mod Manager</title>
+      <link>http://localhost:1313/portfolio/rcmm/</link>
+      <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/rcmm/</guid>
+      <description>&lt;h2 id=&#34;a-file-management-solution-for-gamecube-mods&#34;&gt;A file management solution for GameCube Mods&lt;/h2&gt;&#xA;&lt;h4 id=&#34;october-2025---present&#34;&gt;October 2025 - Present&lt;/h4&gt;&#xA;&lt;p&gt;Full-Stack desktop application that serves as a file manager for injecting files into extracted GameCube ISOs.&lt;/p&gt;&#xA;&lt;p&gt;GitHub Repository: &lt;a href=&#34;https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager&#34;&gt;https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Work in progress.&#xA;Features to be added:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Texture support.&lt;/li&gt;&#xA;&lt;li&gt;P2P file transfer using Croc: &lt;a href=&#34;https://github.com/schollz/croc&#34;&gt;https://github.com/schollz/croc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Improved UI.&lt;/li&gt;&#xA;&lt;li&gt;GameBanana API support.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;Qt UI/PyQt6&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

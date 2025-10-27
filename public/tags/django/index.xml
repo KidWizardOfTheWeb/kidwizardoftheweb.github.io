@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on Terminal</title>
+    <link>http://localhost:1313/tags/django/</link>
+    <description>Recent content in Django on Terminal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Oct 2025 16:04:50 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ThirdSpace</title>
+      <link>http://localhost:1313/portfolio/thirdspace/</link>
+      <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/thirdspace/</guid>
+      <description>&lt;h2 id=&#34;social-media-platform-that-prioritizes-self-expression-above-all&#34;&gt;Social Media platform that prioritizes self-expression above all.&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech stack&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;AWS&lt;/li&gt;&#xA;&lt;li&gt;Django&lt;/li&gt;&#xA;&lt;li&gt;JavaScript&lt;/li&gt;&#xA;&lt;li&gt;HTML&lt;/li&gt;&#xA;&lt;li&gt;CSS&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
