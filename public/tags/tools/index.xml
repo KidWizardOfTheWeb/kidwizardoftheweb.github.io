@@ -6,8 +6,15 @@
     <description>Recent content in Tools on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Oct 2025 15:51:53 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2025 20:30:19 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solving file maintenance: how RCMM was developed.</title>
+      <link>http://localhost:1313/editor-desk/makingofrcmm/</link>
+      <pubDate>Sun, 26 Oct 2025 20:30:19 -0400</pubDate>
+      <guid>http://localhost:1313/editor-desk/makingofrcmm/</guid>
+      <description>&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ol&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#rcmm---a-file-management-solution-for-gamecube-mods&#34;&gt;R.C.M.M. - A file management solution for GameCube Mods&lt;/a&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#the-story&#34;&gt;The story&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#the-xdelta-problem--trying-for-longterm-growth&#34;&gt;The Xdelta problem &amp;amp; trying for longterm growth&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#studying-other-solutions-hedgemodmanager&#34;&gt;Studying other solutions: HedgeModManager&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#the-conceptual-workflow-of-rcmm&#34;&gt;The conceptual workflow of R.C.M.M.&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#initial-release-and-conclusion&#34;&gt;Initial release and conclusion&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ol&gt;&#xA;&lt;/nav&gt;&#xA;&lt;h2 id=&#34;rcmm---a-file-management-solution-for-gamecube-mods&#34;&gt;R.C.M.M. - A file management solution for GameCube Mods&lt;/h2&gt;&#xA;&lt;p&gt;At the time of writing (when I started this website), this is my most recent venture (I&amp;rsquo;m pretty proud of it quite honestly).&lt;/p&gt;&#xA;&lt;p&gt;My aim was to fix a common issue with developing mods involving file changes to emulated GameCube and Wii games, which is build and file management.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Reaper Co. Mod Manager</title>
       <link>http://localhost:1313/portfolio/rcmm/</link>

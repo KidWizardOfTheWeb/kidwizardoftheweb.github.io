@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Oct 2025 16:04:50 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2025 20:30:19 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GameCube</title>
+      <link>http://localhost:1313/tags/gamecube/</link>
+      <pubDate>Sun, 26 Oct 2025 20:30:19 -0400</pubDate>
+      <guid>http://localhost:1313/tags/gamecube/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Sun, 26 Oct 2025 20:30:19 -0400</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/tags/tools/</link>
+      <pubDate>Sun, 26 Oct 2025 20:30:19 -0400</pubDate>
+      <guid>http://localhost:1313/tags/tools/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AWS</title>
       <link>http://localhost:1313/tags/aws/</link>
@@ -41,13 +62,6 @@
       <link>http://localhost:1313/tags/js/</link>
       <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
       <guid>http://localhost:1313/tags/js/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
-      <pubDate>Sun, 26 Oct 2025 16:04:50 -0400</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
@@ -163,24 +177,10 @@
       <description></description>
     </item>
     <item>
-      <title>GameCube</title>
-      <link>http://localhost:1313/tags/gamecube/</link>
-      <pubDate>Sun, 26 Oct 2025 16:03:13 -0400</pubDate>
-      <guid>http://localhost:1313/tags/gamecube/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Qt</title>
       <link>http://localhost:1313/tags/qt/</link>
       <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
       <guid>http://localhost:1313/tags/qt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tools</title>
-      <link>http://localhost:1313/tags/tools/</link>
-      <pubDate>Sun, 26 Oct 2025 15:51:53 -0400</pubDate>
-      <guid>http://localhost:1313/tags/tools/</guid>
       <description></description>
     </item>
   </channel>
