@@ -1,63 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
     <title>Solving file maintenance: how RCMM was developed. :: Reaper Co. Desk</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="R.C.M.M. - A file management solution for GameCube Mods At the time of writing (when I started this website), this is my most recent venture (I&rsquo;m pretty proud of it quite honestly).
+<meta name="description" content=" R.C.M.M. - A file management solution for GameCube Mods The story The Xdelta problem &amp; trying for longterm growth Studying other solutions: HedgeModManager The conceptual workflow of R.C.M.M. Initial release and conclusion R.C.M.M. - A file management solution for GameCube Mods At the time of writing (when I started this website), this is my most recent venture (I&rsquo;m pretty proud of it quite honestly).
 My aim was to fix a common issue with developing mods involving file changes to emulated GameCube and Wii games, which is build and file management.
-While I was developing Sonic Riders Tournament Edition, most of the time players were generally discouraged from modifying the game in any way due to being unable to play together with someone if they do not have the exact same setup as you. That meant no custom models or music packs unless you gave the other player an Xdelta (file used to modify a base file into the target output) and have them patch their game copy.
 " />
 <meta name="keywords" content=", " />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="https://kidwizardoftheweb-github-io.pages.dev/editor-desk/makingofrcmm/" />
+<link rel="canonical" href="http://localhost:1313/editor-desk/makingofrcmm/" />
 
 
 
 
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
 
   
-  <link rel="stylesheet" href="https://kidwizardoftheweb-github-io.pages.dev/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
 
 
 
@@ -65,8 +64,8 @@ While I was developing Sonic Riders Tournament Edition, most of the time players
 
 
 
-<link rel="shortcut icon" href="https://kidwizardoftheweb-github-io.pages.dev/favicon.png">
-<link rel="apple-touch-icon" href="https://kidwizardoftheweb-github-io.pages.dev/apple-touch-icon.png">
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
 
 
 <meta name="twitter:card" content="summary" />
@@ -81,16 +80,15 @@ While I was developing Sonic Riders Tournament Edition, most of the time players
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Solving file maintenance: how RCMM was developed.">
-<meta property="og:description" content="R.C.M.M. - A file management solution for GameCube Mods At the time of writing (when I started this website), this is my most recent venture (I&rsquo;m pretty proud of it quite honestly).
+<meta property="og:description" content=" R.C.M.M. - A file management solution for GameCube Mods The story The Xdelta problem &amp; trying for longterm growth Studying other solutions: HedgeModManager The conceptual workflow of R.C.M.M. Initial release and conclusion R.C.M.M. - A file management solution for GameCube Mods At the time of writing (when I started this website), this is my most recent venture (I&rsquo;m pretty proud of it quite honestly).
 My aim was to fix a common issue with developing mods involving file changes to emulated GameCube and Wii games, which is build and file management.
-While I was developing Sonic Riders Tournament Edition, most of the time players were generally discouraged from modifying the game in any way due to being unable to play together with someone if they do not have the exact same setup as you. That meant no custom models or music packs unless you gave the other player an Xdelta (file used to modify a base file into the target output) and have them patch their game copy.
 " />
-<meta property="og:url" content="https://kidwizardoftheweb-github-io.pages.dev/editor-desk/makingofrcmm/" />
+<meta property="og:url" content="http://localhost:1313/editor-desk/makingofrcmm/" />
 <meta property="og:site_name" content="Reaper Co. Desk" />
 
   
   
-  <meta property="og:image" content="https://kidwizardoftheweb-github-io.pages.dev/">
+  <meta property="og:image" content="http://localhost:1313/">
 
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
@@ -197,7 +195,7 @@ While I was developing Sonic Riders Tournament Edition, most of the time players
     
 <article class="post">
   <h1 class="post-title">
-    <a href="https://kidwizardoftheweb-github-io.pages.dev/editor-desk/makingofrcmm/">Solving file maintenance: how RCMM was developed.</a>
+    <a href="http://localhost:1313/editor-desk/makingofrcmm/">Solving file maintenance: how RCMM was developed.</a>
   </h1>
   <div class="post-meta"><time class="post-date">2025-10-26</time><span class="post-author">KC</span></div>
 
@@ -208,11 +206,177 @@ While I was developing Sonic Riders Tournament Edition, most of the time players
   
 
   <div class="post-content"><div>
-        <h2 id="rcmm---a-file-management-solution-for-gamecube-mods">R.C.M.M. - A file management solution for GameCube Mods<a href="#rcmm---a-file-management-solution-for-gamecube-mods" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#rcmm---a-file-management-solution-for-gamecube-mods">R.C.M.M. - A file management solution for GameCube Mods</a>
+      <ol>
+        <li><a href="#the-story">The story</a></li>
+        <li><a href="#the-xdelta-problem--trying-for-longterm-growth">The Xdelta problem &amp; trying for longterm growth</a></li>
+        <li><a href="#studying-other-solutions-hedgemodmanager">Studying other solutions: HedgeModManager</a></li>
+        <li><a href="#the-conceptual-workflow-of-rcmm">The conceptual workflow of R.C.M.M.</a></li>
+        <li><a href="#initial-release-and-conclusion">Initial release and conclusion</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+<h2 id="rcmm---a-file-management-solution-for-gamecube-mods">R.C.M.M. - A file management solution for GameCube Mods<a href="#rcmm---a-file-management-solution-for-gamecube-mods" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>At the time of writing (when I started this website), this is my most recent venture (I&rsquo;m pretty proud of it quite honestly).</p>
 <p>My aim was to fix a common issue with developing mods involving file changes to emulated GameCube and Wii games, which is build and file management.</p>
-<p>While I was developing Sonic Riders Tournament Edition, most of the time players were generally discouraged from modifying the game in any way due to being unable to play together with someone if they do not have the <em>exact</em> same setup as you. That meant <strong>no custom models or music packs</strong> unless you gave the other player an Xdelta (file used to modify a base file into the target output) and have them patch their game copy.</p>
-<p>This was a hassle, as the mod creator always had to update the <strong>Xdelta</strong> patcher every time a new patch for Tournament Edition was released to stay up to date.</p>
+<h3 id="the-story">The story<a href="#the-story" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>While I was developing Sonic Riders Tournament Edition (SRTE), most of the time players were generally discouraged from modifying the game in any way due to being unable to play together with someone if they do not have the <em>exact</em> same setup as you. That meant <strong>no custom models or music packs</strong> unless you gave the other player an Xdelta (file used to modify a base file into the target output) and have them patch their game copy.</p>
+<p>Xdelta is a file that contains all diffs between a base and a target file. This could take anywhere from 15 minutes to an hour to compile, since you cannot multithread the bitchecks it has to run on everything. If even one byte is out of place, the whole program could be out of commision.</p>
+<p>This was a hassle, as the mod creator always had to update the <strong>Xdelta</strong> patcher every time a new patch for Tournament Edition was released to stay up to date. In fact, mods like <a href="https://github.com/akaneia/akaneia-build/releases">Akaneia</a> for Super Smash Bros. Melee still use Xdelta to this day to patch their game.</p>
+<h3 id="the-xdelta-problem--trying-for-longterm-growth">The Xdelta problem &amp; trying for longterm growth<a href="#the-xdelta-problem--trying-for-longterm-growth" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>For longterm releases with smaller/more inconsistent playerbases, this is fine. But for longterm growth on the other hand, Xdeltas only hamper the entire onboarding process. Not only do you have to make it work for those who cannot operate their filesystem on a regular basis, but even something as simple as &ldquo;drag-and-drop&rdquo; cannot be taken for granted as a skill anymore (I&rsquo;ve learned this the hard way while developing tools for general usage).</p>
+<p>Longterm growth was my goal, so fiddling with Xdeltas was out of the question. With SRTE, I ended up developing a patcher that automatically grabs updates from a server we host the delta files on (shoutout to <a href="https://github.com/sewer56">Sewer56</a> for their implementation of delta patch files) and patches the files locally after retrieval. All the user had to do was make sure they had .NET 7 and place the ISO in the proper folder.</p>
+<p>Even then, the workflow still looked like this to make a new patch and retrieve it:</p>
+<ol>
+<li>Compile the extracted files into an ISO (&lt;1 min)</li>
+<li>Use Sewer&rsquo;s delta generator to generate base ISO/new ISO hashes and patch files (15-30 minutes)</li>
+<li>Test ISO (5-30 minutes, depending on changes added).</li>
+<li>Upload to server (30 minutes).</li>
+<li>Test server retrieval with patcher (&lt;1-2 minutes on my computer &amp; network).</li>
+</ol>
+<p>That&rsquo;s about an hour to create new files, test, release, and test the release each time. And if you screw up something or leave something in? Gotta redo the whole process. Every time I upload a new patch for SRTE, I am anxious 100% of the way through for that reason. It&rsquo;s happened before, and it&rsquo;ll happen again.</p>
+<h3 id="studying-other-solutions-hedgemodmanager">Studying other solutions: <a href="https://github.com/thesupersonic16/HedgeModManager">HedgeModManager</a><a href="#studying-other-solutions-hedgemodmanager" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Last year, I played Shadow Generations and got to use a little program called HedgeModManager for the first time. I&rsquo;ve never really done PC game modding before, and I marveled at how simple it was to operate and understand. The connectivity with GameBanana blew my mind at the time as well. I just couldn&rsquo;t fathom how the connection from website to launcher worked so well and effortlessly.</p>
+<p>So when I thought of making a mod manager, HedgeModManager became my idea of a perfect manager. Their repository was easy enough to comprehend what the general idea for implementing their systems was, but there was a general difference between the types of games handled in my situation versus PC.</p>
+<p>See, PC games use clients like Steam or Epic to handle versioning, file management, and storage. With Sonic PC games, file and code injection was the main methodology to make mods run, using .dlls to do the injections.</p>
+<p>With games you run on Dolphin (GameCube/Wii), the story is a bit different. You can extract the files from any given ISO and still play said extracted files as a full ISO. Replacing those files (with valid ones ofc) also works, as Dolphin will load whatever is requested by the game and if it follows the file path/file name convention. So for my version of a mod manager, the basis had to be <strong>layering</strong> instead of injection.</p>
+<p>Knowing this, I sketched out a few possible ideas on how this could work. Python is always on my mind for simple solutions quick (it really is a &ldquo;do-everything&rdquo; kind of language, I love it), and when I revisted some of my older projects for inspiration, dictionaries (hashmaps) stuck out to me as a solution. Python&rsquo;s specific collision handling implementation had a certain behavior that mirrored my idea of layering perfectly. So, I got to work immediately.</p>
+<h3 id="the-conceptual-workflow-of-rcmm">The conceptual workflow of R.C.M.M.<a href="#the-conceptual-workflow-of-rcmm" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>R.C.M.M.&rsquo;s workflow goes like this:</p>
+<ol>
+<li>Add a game to the mod manager. This uses DolphinTool as a subprocess to extract the ISO to a new directory in a mods folder, named after the game ID.</li>
+<li>The extracted ISO is then used as a &ldquo;base case&rdquo; for laying mods on top of. Think of it like a smoothie bowl, where you need a base to put your toppings on top of, otherwise the toppings do nothing on their own.</li>
+<li>Any mods the user turns on will then calculate a database file for all the files in said mod. This database is actually a dictionary (hashmap) of all the files, which has an important paradigm in the python implementation that we&rsquo;ll use later. The extracted ISO also has it&rsquo;s own database.</li>
+<li>Once all mods are turned on and the user is ready to save, when pressing the save button, all database files are combined. The way this works revolves around hashmap collision handling. Python has a really neat way of handling when it detects two of the same keys between dictionaries:</li>
+</ol>
+<p>Let&rsquo;s say dictionary A has key-pair <code>{bigKeyGuy: fooValue}</code> and dictionary B has key-pair <code>{bigKeyGuy: barValue}</code>. If the operation <code>dictionary A + dictionary B</code> happens, python will detect two <code>bigKeyGuy</code> keys exist and <em>replaces the value of the dictionary being added to</em>.</p>
+<p>E.g.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Generate our dictionaries</span>
+</span></span><span class="line"><span class="cl"><span class="n">dictA</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&#34;bigKeyGuy&#34;</span><span class="p">:</span> <span class="s2">&#34;fooValue&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">dictB</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&#34;bigKeyGuy&#34;</span><span class="p">:</span> <span class="s2">&#34;barValue&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Print our dictionary A to show off value</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">dictA</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">{</span><span class="s2">&#34;bigKeyGuy&#34;</span><span class="p">:</span> <span class="s2">&#34;fooValue&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Add dictionaries together, python implicitly handling our hashmap collision during this</span>
+</span></span><span class="line"><span class="cl"><span class="n">dictA</span> <span class="o">=</span> <span class="n">dictA</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">dictB</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Print our dictionary A to show off newvalue</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">dictA</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">{</span><span class="s2">&#34;bigKeyGuy&#34;</span><span class="p">:</span> <span class="s2">&#34;barValue&#34;</span><span class="p">}</span>
+</span></span></code></pre></div><p>So <code>dictA</code>&rsquo;s key&rsquo;s value was replaced by <code>dictB</code>&rsquo;s key&rsquo;s value while keeping the same key. No errors! Unlike some other languages.</p>
+<p>Using this behavior, I designed a database schema for the base ISO, the modded output ISO, and each mod.</p>
+<p>Essentially, all we have to do is record:</p>
+<ul>
+<li>The subdirectories of the mod (&ldquo;sys&rdquo;/&ldquo;files&rdquo; for GameCube).</li>
+<li>What files exist in the ISO/mod.</li>
+<li>Where the original directory was.</li>
+<li>The hash of the file (for file integrity purposes).</li>
+</ul>
+<p>Example of the schema using a mod that includes a sys folder with a .dol and a single file replacement in the files folder:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;sys&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;main.dol&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;C:</span><span class="se">\\</span><span class="s2">Users</span><span class="se">\\</span><span class="s2">XXX</span><span class="se">\\</span><span class="s2">Downloads</span><span class="se">\\</span><span class="s2">RidersDolphin3Windows</span><span class="se">\\</span><span class="s2">x64</span><span class="se">\\</span><span class="s2">ReaperCoMods</span><span class="se">\\</span><span class="s2">GXEE8P</span><span class="se">\\</span><span class="s2">GXEE8P_mods</span><span class="se">\\</span><span class="s2">SRTE v2.4.6</span><span class="se">\\</span><span class="s2">sys</span><span class="se">\\</span><span class="s2">main.dol&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;.dol&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;65a9b1be9c52e53900e073cd1be5123941581a31816ee107609a78d77c69796f&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;files&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;0&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;C:</span><span class="se">\\</span><span class="s2">Users</span><span class="se">\\</span><span class="s2">XXX</span><span class="se">\\</span><span class="s2">Downloads</span><span class="se">\\</span><span class="s2">RidersDolphin3Windows</span><span class="se">\\</span><span class="s2">x64</span><span class="se">\\</span><span class="s2">ReaperCoMods</span><span class="se">\\</span><span class="s2">GXEE8P</span><span class="se">\\</span><span class="s2">GXEE8P_mods</span><span class="se">\\</span><span class="s2">SRTE v2.4.6</span><span class="se">\\</span><span class="s2">files</span><span class="se">\\</span><span class="s2">0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;ff1385b571519f676af815a71718944c6793d4fc3e726eb89b4eaf6e3124b7ae&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Remember how I said the extracted ISO was our base case? Using the above logic, this is how we handle adding mods on top to make our final modded ISO:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="c1"># This is simplified from the real version for readability</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Real version: </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager/blob/master/modfileutils.py#L241</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Get ORIGINAL ISO database first</span>
+</span></span><span class="line"><span class="cl"><span class="n">original_iso_db</span> <span class="o">=</span> <span class="n">ORIGINAL_ISO_DIR</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Make the dict we&#39;ll pass for final merge</span>
+</span></span><span class="line"><span class="cl"><span class="n">combined_file_dict</span> <span class="o">=</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Load the original ISO first into the dictionary</span>
+</span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">original_iso_db</span><span class="p">,</span> <span class="s2">&#34;db.json&#34;</span><span class="p">),</span> <span class="s2">&#34;r&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">combined_file_dict</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Load all other dictionaries, OR (the operator, using update) them into the combined one</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Assume active_mods is a list</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">active_mods</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Assume mod_found_path is a list of paths for each active mod</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Load the databases for each active mod</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="n">mod_found_path</span><span class="p">[</span><span class="n">index</span><span class="p">]),</span> <span class="s2">&#34;db.json&#34;</span><span class="p">),</span> <span class="s2">&#34;r&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1"># Load file into this variable</span>
+</span></span><span class="line"><span class="cl">        <span class="n">new_dict_to_add</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1"># Get the keys of the newly loaded dictionary, update that key in combined_file_dict to lay on top of our base ISO</span>
+</span></span><span class="line"><span class="cl">        <span class="n">new_dict_keys</span> <span class="o">=</span> <span class="n">new_dict_to_add</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1"># The &#34;keys&#34; here are the subdirectories in the mods. Namely, &#34;sys&#34; and &#34;files&#34; for gamecube games.</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Python only updates the files that were added in the mod and doesn&#39;t replace any that aren&#39;t in the subdirectories</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">keys</span> <span class="ow">in</span> <span class="n">new_dict_keys</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">combined_file_dict</span><span class="p">[</span><span class="n">keys</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">new_dict_to_add</span><span class="p">[</span><span class="n">keys</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Write dict database to gameID_MOD folder for final file merging</span>
+</span></span><span class="line"><span class="cl"><span class="n">mod_iso_db</span> <span class="o">=</span> <span class="n">MOD_ISO_DIR</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Dump JSON to modded ISO output, so all merged files can be retrieved and copied to here in the next step.</span>
+</span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">mod_iso_db</span><span class="p">,</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&#34;db.json&#34;</span><span class="p">)),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">combined_file_dict</span><span class="p">,</span> <span class="n">file</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">return</span> <span class="n">mod_iso_db</span>
+</span></span></code></pre></div><p>Once the database is saved, how is the actual modified ISO created?</p>
+<p>Well since we made a hashmap for the final output, quite easily! Check it:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># This is the full version actually, but link anyway:</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager/blob/master/modfileutils.py#L296</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">move_mod_files_to_final_place</span><span class="p">(</span><span class="n">mod_iso_db</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Get file dict from... file</span>
+</span></span><span class="line"><span class="cl">    <span class="n">combined_file_dict</span> <span class="o">=</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">mod_iso_db</span><span class="p">,</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&#34;db.json&#34;</span><span class="p">)),</span> <span class="s2">&#34;r&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">combined_file_dict</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Go through every key (top-level directory), then every key-value[0] to get the file directory to move into gameID_MOD</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Get top level directory, then filelist</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">directory</span><span class="p">,</span> <span class="n">filelist</span> <span class="ow">in</span> <span class="n">combined_file_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Then get filename, then directory (filedata[0])</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Use this to move.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1"># Make the directory first before each iteration</span>
+</span></span><span class="line"><span class="cl">        <span class="n">new_directory</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="n">mod_iso_db</span><span class="p">),</span> <span class="n">Path</span><span class="p">(</span><span class="n">directory</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1"># Clear this directory first to avoid holdover files</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">new_directory</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">new_directory</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1"># Generate the directory again and place files</span>
+</span></span><span class="line"><span class="cl">        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">new_directory</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">filename</span><span class="p">,</span> <span class="n">filedata</span> <span class="ow">in</span> <span class="n">filelist</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">            <span class="n">shutil</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">filedata</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">new_directory</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">        <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">    <span class="k">pass</span>
+</span></span></code></pre></div><p>With this final loop, we essentially retrieve the directories of all files on the modded ISO hashmap and copy it to the final ISO&rsquo;s directory.</p>
+<p>Now when dolphin loads the modded ISO directory, all of the modded files are already included and ready to be played. Best part is, if other users turn on the same mods as you, you can play your mods online with each other!</p>
+<h3 id="initial-release-and-conclusion">Initial release and conclusion<a href="#initial-release-and-conclusion" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>So far with the first release (along with bugfixes) of R.C.M.M., the SRTE community has been able to use their music and model mods together online. You can check out some creations in the <a href="https://discord.com/invite/sonicriders">Sonic Riders Competitive</a> Showcase channel. More features are planned for R.C.M.M. in the future to make implementation even easier for users (and hopefully a proper binary for full release). There might be some caveats like sending files manually for now, but the modpack specs mean that it&rsquo;s as easy as adding a folder and dropping in and refreshing the window.</p>
+<p>I&rsquo;m currently asking around for other GameCube games and seeing where R.C.M.M. can do some good. If you have a game you&rsquo;d like to try, give <a href="https://github.com/KidWizardOfTheWeb/ReaperCo.ModManager/tree/master">R.C.M.M.</a> a shot!</p>
+<p>This is also the first project I&rsquo;m releasing under the Reaper Co. moniker. I hope to release more over time and maybe even garner a team. But that&rsquo;s for the future.</p>
+<p>Thank you for reading my first post! You can message me on discord at <code>kid.chameleon</code> or leave an issue on my GitHub for new changes!</p>
 
       </div></div>
 

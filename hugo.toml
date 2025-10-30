@@ -9,6 +9,7 @@ pagination.pagerSize = 7
   noClasses = false
 
 # Table of contents default setup
+# Add {{< toc >}} for table of contents
 [markup]
   [markup.tableOfContents]
       endLevel = 4

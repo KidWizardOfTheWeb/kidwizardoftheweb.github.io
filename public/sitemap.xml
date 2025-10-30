@@ -2,141 +2,141 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/editor-desk/</loc>
+    <loc>http://localhost:1313/editor-desk/</loc>
     <lastmod>2025-10-26T20:30:19-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-26T20:30:19-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/editor-desk/makingofrcmm/</loc>
+    <loc>http://localhost:1313/editor-desk/makingofrcmm/</loc>
     <lastmod>2025-10-26T20:30:19-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/reaper-co/reaperco/</loc>
+    <loc>http://localhost:1313/reaper-co/reaperco/</loc>
     <lastmod>2025-10-26T19:20:00-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/reaper-co/</loc>
+    <loc>http://localhost:1313/reaper-co/</loc>
     <lastmod>2025-10-26T19:20:00-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/aws/</loc>
+    <loc>http://localhost:1313/tags/aws/</loc>
     <lastmod>2025-10-26T16:04:50-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/css/</loc>
+    <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2025-10-26T16:04:50-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/django/</loc>
+    <loc>http://localhost:1313/tags/django/</loc>
     <lastmod>2025-10-26T16:04:50-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/html/</loc>
+    <loc>http://localhost:1313/tags/html/</loc>
     <lastmod>2025-10-26T16:04:50-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/js/</loc>
+    <loc>http://localhost:1313/tags/js/</loc>
     <lastmod>2025-10-26T16:04:50-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/portfolio/</loc>
+    <loc>http://localhost:1313/portfolio/</loc>
     <lastmod>2025-10-26T16:04:50-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2025-10-26T16:04:50-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-10-26T16:04:50-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/portfolio/thirdspace/</loc>
+    <loc>http://localhost:1313/portfolio/thirdspace/</loc>
     <lastmod>2025-10-26T16:04:50-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/assembly/</loc>
+    <loc>http://localhost:1313/tags/assembly/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/c/</loc>
+    <loc>http://localhost:1313/tags/c/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/c&#43;&#43;/</loc>
+    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/decompilation/</loc>
+    <loc>http://localhost:1313/tags/decompilation/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/games/</loc>
+    <loc>http://localhost:1313/tags/games/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/ghidra/</loc>
+    <loc>http://localhost:1313/tags/ghidra/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/ida-pro/</loc>
+    <loc>http://localhost:1313/tags/ida-pro/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/portfolio/lozss/</loc>
+    <loc>http://localhost:1313/portfolio/lozss/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/powerpc/</loc>
+    <loc>http://localhost:1313/tags/powerpc/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/wii/</loc>
+    <loc>http://localhost:1313/tags/wii/</loc>
     <lastmod>2025-10-26T16:04:32-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/blender/</loc>
+    <loc>http://localhost:1313/tags/blender/</loc>
     <lastmod>2025-10-26T16:04:09-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/c%23/</loc>
+    <loc>http://localhost:1313/tags/c%23/</loc>
     <lastmod>2025-10-26T16:04:09-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/portfolio/jsrfmp/</loc>
+    <loc>http://localhost:1313/portfolio/jsrfmp/</loc>
     <lastmod>2025-10-26T16:04:09-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/unity/</loc>
+    <loc>http://localhost:1313/tags/unity/</loc>
     <lastmod>2025-10-26T16:04:09-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/portfolio/k4ss0/</loc>
+    <loc>http://localhost:1313/portfolio/k4ss0/</loc>
     <lastmod>2025-10-26T16:04:01-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/noesis/</loc>
+    <loc>http://localhost:1313/tags/noesis/</loc>
     <lastmod>2025-10-26T16:03:17-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/portfolio/ok/</loc>
+    <loc>http://localhost:1313/portfolio/ok/</loc>
     <lastmod>2025-10-26T16:03:17-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/qemu/</loc>
+    <loc>http://localhost:1313/tags/qemu/</loc>
     <lastmod>2025-10-26T16:03:17-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/static-analysis/</loc>
+    <loc>http://localhost:1313/tags/static-analysis/</loc>
     <lastmod>2025-10-26T16:03:17-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/x86/</loc>
+    <loc>http://localhost:1313/tags/x86/</loc>
     <lastmod>2025-10-26T16:03:17-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/gamecube/</loc>
+    <loc>http://localhost:1313/tags/gamecube/</loc>
     <lastmod>2025-10-26T16:03:13-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/portfolio/sr/</loc>
+    <loc>http://localhost:1313/portfolio/sr/</loc>
     <lastmod>2025-10-26T16:03:13-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/qt/</loc>
+    <loc>http://localhost:1313/tags/qt/</loc>
     <lastmod>2025-10-26T15:51:53-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/portfolio/rcmm/</loc>
+    <loc>http://localhost:1313/portfolio/rcmm/</loc>
     <lastmod>2025-10-26T15:51:53-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/tags/tools/</loc>
+    <loc>http://localhost:1313/tags/tools/</loc>
     <lastmod>2025-10-26T15:51:53-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/job-history/hexagonab/</loc>
+    <loc>http://localhost:1313/job-history/hexagonab/</loc>
     <lastmod>2025-10-26T15:10:01-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/job-history/</loc>
+    <loc>http://localhost:1313/job-history/</loc>
     <lastmod>2025-10-26T15:10:01-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/about/about-me/</loc>
+    <loc>http://localhost:1313/about/about-me/</loc>
     <lastmod>2025-10-26T14:40:05-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-10-26T14:40:05-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-10-24T18:31:44-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/posts/my-first-post/</loc>
+    <loc>http://localhost:1313/posts/my-first-post/</loc>
     <lastmod>2025-10-24T18:31:44-04:00</lastmod>
   </url><url>
-    <loc>https://kidwizardoftheweb-github-io.pages.dev/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

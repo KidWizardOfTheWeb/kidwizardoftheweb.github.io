@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Editor-Desks on Reaper Co. Desk</title>
-    <link>https://kidwizardoftheweb-github-io.pages.dev/editor-desk/</link>
+    <link>http://localhost:1313/editor-desk/</link>
     <description>Recent content in Editor-Desks on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Oct 2025 20:30:19 -0400</lastBuildDate>
-    <atom:link href="https://kidwizardoftheweb-github-io.pages.dev/editor-desk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/editor-desk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solving file maintenance: how RCMM was developed.</title>
-      <link>https://kidwizardoftheweb-github-io.pages.dev/editor-desk/makingofrcmm/</link>
+      <link>http://localhost:1313/editor-desk/makingofrcmm/</link>
       <pubDate>Sun, 26 Oct 2025 20:30:19 -0400</pubDate>
-      <guid>https://kidwizardoftheweb-github-io.pages.dev/editor-desk/makingofrcmm/</guid>
-      <description>&lt;h2 id=&#34;rcmm---a-file-management-solution-for-gamecube-mods&#34;&gt;R.C.M.M. - A file management solution for GameCube Mods&lt;/h2&gt;&#xA;&lt;p&gt;At the time of writing (when I started this website), this is my most recent venture (I&amp;rsquo;m pretty proud of it quite honestly).&lt;/p&gt;&#xA;&lt;p&gt;My aim was to fix a common issue with developing mods involving file changes to emulated GameCube and Wii games, which is build and file management.&lt;/p&gt;&#xA;&lt;p&gt;While I was developing Sonic Riders Tournament Edition, most of the time players were generally discouraged from modifying the game in any way due to being unable to play together with someone if they do not have the &lt;em&gt;exact&lt;/em&gt; same setup as you. That meant &lt;strong&gt;no custom models or music packs&lt;/strong&gt; unless you gave the other player an Xdelta (file used to modify a base file into the target output) and have them patch their game copy.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/editor-desk/makingofrcmm/</guid>
+      <description>&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ol&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#rcmm---a-file-management-solution-for-gamecube-mods&#34;&gt;R.C.M.M. - A file management solution for GameCube Mods&lt;/a&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#the-story&#34;&gt;The story&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#the-xdelta-problem--trying-for-longterm-growth&#34;&gt;The Xdelta problem &amp;amp; trying for longterm growth&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#studying-other-solutions-hedgemodmanager&#34;&gt;Studying other solutions: HedgeModManager&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#the-conceptual-workflow-of-rcmm&#34;&gt;The conceptual workflow of R.C.M.M.&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#initial-release-and-conclusion&#34;&gt;Initial release and conclusion&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ol&gt;&#xA;&lt;/nav&gt;&#xA;&lt;h2 id=&#34;rcmm---a-file-management-solution-for-gamecube-mods&#34;&gt;R.C.M.M. - A file management solution for GameCube Mods&lt;/h2&gt;&#xA;&lt;p&gt;At the time of writing (when I started this website), this is my most recent venture (I&amp;rsquo;m pretty proud of it quite honestly).&lt;/p&gt;&#xA;&lt;p&gt;My aim was to fix a common issue with developing mods involving file changes to emulated GameCube and Wii games, which is build and file management.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
