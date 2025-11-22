@@ -6,8 +6,15 @@
     <description>Recent content on Reaper Co. Desk</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Oct 2025 20:30:19 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 01:16:54 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>November Project Update</title>
+      <link>http://localhost:1313/editor-desk/novemberprojectupdate1/</link>
+      <pubDate>Sun, 09 Nov 2025 01:16:54 -0500</pubDate>
+      <guid>http://localhost:1313/editor-desk/novemberprojectupdate1/</guid>
+      <description>&lt;p&gt;This post was supposed to come out at the beginning of November. However, I&amp;rsquo;m not very used to uploading consistently to any platform with a post button, so that is something I must work on.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-happening-this-november&#34;&gt;What&amp;rsquo;s happening this November?&lt;/h2&gt;&#xA;&lt;p&gt;This November, I&amp;rsquo;m continuously updating R.C.M.M. to what I&amp;rsquo;d consider an acceptable state to leave it in for a short while. Simply put, here&amp;rsquo;s the rest of the content I&amp;rsquo;m working to add/improve upon:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Solving file maintenance: how RCMM was developed.</title>
       <link>http://localhost:1313/editor-desk/makingofrcmm/</link>
