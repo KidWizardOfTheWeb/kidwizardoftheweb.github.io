@@ -26,13 +26,14 @@ Features to be added:
 - Statistics DB for servers.
 
 LC-Radio allows anyone to spin up their own audio channel for others to listen to as they stream audio. 
-Users will also be able to host their own servers with minimal setup.
-Local testing works, server-instance testing coming soon.
+Users can host their own server instances with minimal setup.
+My official server endpoint is: https://radio.reaperco.net
 
 **Tech stack**:
 - Full-stack
 - Python
-- Sockets
+- WebSockets
+- Redis Pub/Sub
 - APIs
 - JWT tokens
-- AWS EC2 instances
+- Linux server instances
