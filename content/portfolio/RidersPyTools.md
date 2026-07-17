@@ -5,7 +5,7 @@ title = 'RidersPyTools'
 author = 'KC'
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["Python", "Dolphin", "GameCube", "Games"]
+tags = ["Python", "Dolphin", "GameCube", "Wii", "Games"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
@@ -14,11 +14,13 @@ hideComments = false
 +++
 
 
-## RidersPyTools: Python framework for memory address bindings
+## RidersPyTools: Python framework for memory address bindings of GameCube and Wii games
 
 #### May 2026-Present
 
 Github repository: https://github.com/KidWizardOfTheWeb/RidersPyTools
+
+PyPi page: https://pypi.org/project/RidersPyTools
 
 Work in progress.
 Features to be added:
@@ -31,6 +33,8 @@ RidersPyTools allows developers to replicate memory structures from their origin
 This package was originally built with Sonic Riders in mind, but is flexible enough to insert any structures specific to a game implementation.
 
 For Sonic Riders, the structure implementation matches the disassembly and the decompiled code that is already known, being almost analogous to SRTE's C++ codebase. This serves as an easy bridge to learn how to code for riders in particular by starting here and transferring experience over, as syntax is 99% similar between our python implementation and C++ implementation.
+
+This package is maintained and released on PyPi for users to `pip install`. Please fork it for your own games and needs!
 
 **Tech stack**:
 - Python
